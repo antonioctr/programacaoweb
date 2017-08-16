@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    border: 1px solid blue;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.cabeca{
+    border: 1px solid red;
+    background-color: red;
+    height: 200px;
+    flex-grow: 0;
+}
+.meio{
+     border: 1px solid red;
+    background-color: aqua;
+     height: 600px;
+     flex-grow: 1;
+}
+.pe{
+     border: 1px solid red;
+    background-color: greenyellow;
+     height: 200px;
+     flex-grow: 0;
+}
